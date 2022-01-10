@@ -1,0 +1,8 @@
+<Context>
+	<Resource name="jdbc/smart21kph" auth="Container"
+		type="javax.sql.DataSource" username="smart21kph" password="smart21kph"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		url="jdbc:mysql://118.131.179.138:3306/smart21kph?serverTimezone=Asia/Seoul"
+		maxActive="500" maxIdle="100" />
+</Context>
